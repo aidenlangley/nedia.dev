@@ -14,3 +14,12 @@
 	<Email address={obf_email} />
 	<Phone number={$phone} />
 </section>
+
+<style>
+	.links {
+		display: grid;
+		grid-auto-flow: column;
+		align-items: center;
+		justify-items: center;
+	}
+</style>
