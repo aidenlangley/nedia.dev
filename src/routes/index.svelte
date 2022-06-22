@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Links from '$lib/Links.svelte';
-	import ProjectSpotlight from '$lib/ProjectSpotlight.svelte';
+	import Projects from '$lib/Projects.svelte';
 </script>
 
 <Links />
 
-<ProjectSpotlight />
+<Projects />

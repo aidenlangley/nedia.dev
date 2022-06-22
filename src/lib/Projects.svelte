@@ -30,3 +30,9 @@
 		{/if}
 	{/each}
 </section>
+
+<style>
+	ul {
+		font-family: sans-serif;
+	}
+</style>

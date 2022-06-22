@@ -16,20 +16,16 @@
 
 <style>
 	a {
+		color: white;
 		text-decoration: none;
-	}
-
-	a:hover,
-	a:active {
-		color: blue;
-	}
-
-	:global(.dark) a:hover,
-	:global(.dark) a:active {
-		color: skyblue;
 	}
 
 	a:visited {
 		color: gray;
+	}
+
+	a:hover,
+	a:active {
+		color: skyblue;
 	}
 </style>
