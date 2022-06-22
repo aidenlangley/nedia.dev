@@ -1,5 +1,5 @@
-import{r as e}from"./index-97b11f37.js";e("Aiden");e("Langley");const o=e("aiden@nedia.dev"),n=e("+642040773742"),i=e(`Born in NZ and grew up in London, England.
-  World of Warcraft nerd turned Software Engineer and Linux enthusiast.`),a=e([{title:"bspcq",description:[`A hobby of mine is tinkering with Linux - this was
+import{r as e}from"./index-7c64d610.js";const o=[{page:"home",url:"/",active:!0},{page:"r\xE9sum\xE9",url:"/resume",active:!0},{page:"blog",url:"/blog",active:!1}];e("Aiden");e("Langley");const n=e("aiden@nedia.dev"),a=e("+642040773742"),i=e(`Born in Aotearoa and grew up in London, England.
+  World of Warcraft nerd turned Software Engineer and Linux enthusiast.`);e(["cooking & baking","games","football","technology"]);const s=e([{title:"bspcq",description:[`A hobby of mine is tinkering with Linux - this was
         something I wrote to visually represent the bspwm data structure.
         It uses binary space partitioning to divide your desktop into
         nodes that a program can occupy. The code is recursive since you
@@ -24,4 +24,4 @@ import{r as e}from"./index-97b11f37.js";e("Aiden");e("Langley");const o=e("aiden
         and teaching the whanau.`],urls:["https://github.com/aidenlangley/wowhub.co.nz","https://wowhub.co.nz"],key_words:["Svelte","Hand drawn art"]},{title:"Even further back!",description:[`The reason I got into programming was World of Warcraft.
         I'd tinker with the settings & user interface more than play the game
         at games, and so I became involved with a community of tinkerers. I
-        would help out on the forums, moderating for a time.`],urls:["https://github.com/Tukui-org/Tukui","https://www.tukui.org"],key_words:["Gaming","User interface","Lua"]}]),s=e("https://github.com/aidenlangley/nedia.dev"),r=e("https://svelte.dev/"),l=e("https://kit.svelte.dev/");export{l as a,s as b,i as c,a as d,o as e,n as p,r as s};
+        would help out on the forums, moderating for a time.`],urls:["https://github.com/Tukui-org/Tukui","https://www.tukui.org"],key_words:["Gaming","User interface","Lua"]}]),r=e("https://github.com/aidenlangley/nedia.dev"),h=e("https://svelte.dev/"),l=e("https://kit.svelte.dev/");e(new Date(1993,10));e([{name:"",score:3}]);export{l as a,r as b,a as c,s as d,n as e,i as f,o as p,h as s};
