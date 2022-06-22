@@ -12,7 +12,8 @@ import{r as e}from"./index-7c64d610.js";const o=[{page:"home",url:"/",active:!0}
         is hands free.`,`Each time I usually pick a new language to write it in, so far
         I've covered Bash, Fish, Python and currently it's in Rust. I
         might not change this time around. Git does most of the work, so
-        I've developed a good understanding of it thanks to this project.`],urls:["https://github.com/aidenlangley/nedots","https://crates.io/crates/nedots"],key_words:["Rust","CLI","Interfaces with C bindings to libgit2"]},{title:"Contributions!",description:[`Most notable contribution is to a launcher that Pop_OS!
+        I've developed a good understanding of it thanks to this project.`,`This project in particular taught me the strengths of test-driven
+        development`],urls:["https://github.com/aidenlangley/nedots","https://crates.io/crates/nedots"],key_words:["Rust","CLI","Interfaces with C bindings to libgit2"]},{title:"Contributions!",description:[`Most notable contribution is to a launcher that Pop_OS!
         develops. I have been interested in their distribution for a long
         time, the tiling window manager for Gnome in particular, and so I
         found some places where I was able to contribute code to improve
