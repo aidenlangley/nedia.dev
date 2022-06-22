@@ -3,8 +3,6 @@
 
 	import Footer from '$lib/Footer.svelte';
 	import Header from '$lib/Header.svelte';
-	import Links from '$lib/Links.svelte';
-	import Blurb from '$lib/Blurb.svelte';
 
 	$: dark = $dark_state;
 </script>
@@ -13,14 +11,6 @@
 	<header>
 		<Header />
 	</header>
-
-	<div class="blurb">
-		<Blurb />
-	</div>
-
-	<div class="links">
-		<Links />
-	</div>
 
 	<main>
 		<slot />
@@ -37,10 +27,11 @@
 		grid-template-columns: minmax(0, 1fr) minmax(375px, 720px) minmax(0, 1fr);
 		grid-template-areas:
 			'. header . '
-			'. blurb  . '
-			'. links  . '
 			'. main   . '
 			'. footer . ';
+	}
+
+	#root > * {
 		padding: 1rem;
 	}
 
@@ -51,14 +42,6 @@
 
 	header {
 		grid-area: header;
-	}
-
-	.blurb {
-		grid-area: blurb;
-	}
-
-	.links {
-		grid-area: links;
 	}
 
 	main {

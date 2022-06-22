@@ -1,6 +1,8 @@
 <script lang="ts">
-	import Blurb from '$lib/Blurb.svelte';
+	import Links from '$lib/Links.svelte';
 	import ProjectSpotlight from '$lib/ProjectSpotlight.svelte';
 </script>
+
+<Links />
 
 <ProjectSpotlight />

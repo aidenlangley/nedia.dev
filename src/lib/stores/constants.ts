@@ -1,14 +1,39 @@
 import { readable } from 'svelte/store';
 
+// Navigation
+export const pages = [
+  {
+    page: 'home',
+    url: '/',
+    active: true,
+  },
+  {
+    page: 'résumé',
+    url: '/resume',
+    active: true
+  },
+  {
+    page: 'blog',
+    url: '/blog',
+    active: false
+  }
+]
+
 // About me.
 export const forename = readable('Aiden');
 export const surname = readable('Langley');
 export const email = readable('aiden@nedia.dev');
 export const phone = readable('+642040773742');
 export const blurb = readable(
-  `Born in NZ and grew up in London, England.
+  `Born in Aotearoa and grew up in London, England.
   World of Warcraft nerd turned Software Engineer and Linux enthusiast.`
 );
+export const hobbies = readable([
+  'cooking & baking',
+  'games',
+  'football',
+  'technology'
+])
 
 // Projects
 export const projects = readable([
@@ -106,3 +131,11 @@ export const projects = readable([
 export const source_gh = readable('https://github.com/aidenlangley/nedia.dev');
 export const svelte = readable('https://svelte.dev/');
 export const svelte_kit = readable('https://kit.svelte.dev/');
+
+// Resume
+export const dob = readable(new Date(1993, 10));
+export const skills = readable([
+  {
+    name: '', score: 3
+  }
+])

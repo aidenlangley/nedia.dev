@@ -15,6 +15,10 @@
 {/if}
 
 <style>
+	a {
+		text-decoration: none;
+	}
+
 	a:hover,
 	a:active {
 		color: blue;
