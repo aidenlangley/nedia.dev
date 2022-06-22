@@ -1,16 +1,16 @@
 <script lang="ts">
 	import { projects } from '$lib/stores/constants';
+	import Heading from './Heading.svelte';
+	import Paragraph from './Paragraph.svelte';
+
+	import Title from './Title.svelte';
 </script>
 
 <section class="spotlight">
-	<h1>
-		<!-- <Link to="/projects" label="opens the projects page" internal> -->
-		Projects
-		<!-- </Link> -->
-	</h1>
+	<Title>Projects</Title>
 	{#each $projects as { title, description, urls, key_words }}
+		<Heading>{title}</Heading>
 		<div class="spotlighted-project">
-			<h1>{title}</h1>
 			<ul>
 				{#each key_words as word}
 					<li>{word}</li>
@@ -18,11 +18,10 @@
 			</ul>
 			{#if description}
 				{#each description as paragraph}
-					<p>{paragraph}</p>
+					<Paragraph>{paragraph}</Paragraph>
 				{/each}
 			{/if}
 			{#if urls && urls.length > 0}
-				<h3>External Links</h3>
 				<ul>
 					{#each urls as url}
 						<li><a href={url}>{url}</a></li>
@@ -32,3 +31,9 @@
 		</div>
 	{/each}
 </section>
+
+<style>
+	h1 {
+		font-family: monospace;
+	}
+</style>

@@ -13,3 +13,19 @@
 		<slot />
 	</a>
 {/if}
+
+<style>
+	a:hover,
+	a:active {
+		color: blue;
+	}
+
+	:global(.dark) a:hover,
+	:global(.dark) a:active {
+		color: skyblue;
+	}
+
+	a:visited {
+		color: gray;
+	}
+</style>

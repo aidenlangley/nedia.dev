@@ -1,92 +1,77 @@
 <script lang="ts">
 	import { dark as dark_state } from '$lib/stores/global';
-	import { email, source_gh, svelte, svelte_kit } from '$lib/stores/constants';
+
+	import Footer from '$lib/Footer.svelte';
+	import Header from '$lib/Header.svelte';
+	import Links from '$lib/Links.svelte';
+	import Blurb from '$lib/Blurb.svelte';
 
 	$: dark = $dark_state;
 </script>
 
 <div id="root" class:dark>
 	<header>
-		<h1 class="banner-title">{$email}</h1>
+		<Header />
 	</header>
+
+	<div class="blurb">
+		<Blurb />
+	</div>
+
+	<div class="links">
+		<Links />
+	</div>
 
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<span class="svelte-kit">
-			<a href={$svelte} target="_blank" rel="noopener external" class="svelte">
-				svelte
-			</a>
-			<a href={$svelte_kit} target="_blank" rel="noopener external" class="kit">
-				kit
-			</a>
-		</span>
-		<span> | </span>
-		<span>
-			<a href={$source_gh} target="_blank" rel="noopener external">
-				source code
-			</a>
-		</span>
+		<Footer />
 	</footer>
 </div>
 
 <style>
+	#root {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(375px, 720px) minmax(0, 1fr);
+		grid-template-areas:
+			'. header . '
+			'. blurb  . '
+			'. links  . '
+			'. main   . '
+			'. footer . ';
+		padding: 1rem;
+	}
+
 	.dark {
-		background-color: #2b2a33;
-		color: whitesmoke;
+		background-color: #181a1b;
+		color: #e7e6e3;
+	}
+
+	header {
+		grid-area: header;
+	}
+
+	.blurb {
+		grid-area: blurb;
+	}
+
+	.links {
+		grid-area: links;
+	}
+
+	main {
+		grid-area: main;
+	}
+
+	footer {
+		grid-area: footer;
 	}
 
 	footer {
 		display: grid;
 		grid-auto-flow: column;
 		grid-auto-columns: max-content;
-	}
-
-	span {
-		margin-left: 0.3rem;
-		margin-right: 0.3rem;
-	}
-
-	a {
-		font-family: monospace;
-		text-decoration: none;
-		color: blue;
-	}
-
-	:global(dark) a {
-		color: lightblue;
-	}
-
-	a:hover,
-	a:active {
-		text-decoration: underline;
-		font-weight: bold;
-	}
-
-	a:visited {
-		color: purple;
-	}
-
-	:global(dark) a:visited {
-		color: lightpurple;
-	}
-
-	.svelte-kit > a {
-		margin-left: initial;
-		margin-right: initial;
-	}
-
-	.kit {
-		color: orangered;
-	}
-
-	a:visited.kit {
-		color: red;
-	}
-
-	.banner-title {
-		font-family: monospace;
 	}
 </style>

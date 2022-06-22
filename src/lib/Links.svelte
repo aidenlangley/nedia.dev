@@ -1,6 +1,8 @@
 <script lang="ts">
-	import Link from '$lib/Link.svelte';
 	import { email, phone } from '$lib/stores/constants';
+
+	import Link from '$lib/Link.svelte';
+
 	const obf_email_parts = $email.split('@');
 	const obf_email = `${obf_email_parts[0]} at ${obf_email_parts[1]}`;
 </script>
@@ -31,7 +33,7 @@
 				to="mailto:{obf_email}"
 				label="opens an email client to write me a message"
 			>
-				Send an email -> <span class="email">{obf_email}</span>
+				Send an email -> {obf_email}
 			</Link>
 		</li>
 

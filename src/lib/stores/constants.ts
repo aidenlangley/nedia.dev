@@ -60,19 +60,19 @@ export const projects = readable([
     urls: ['https://github.com/pop-os/launcher'],
     key_words: ['Pop_OS!', 'Rust', 'System76']
   },
-  {
-    title: 'chrono-elapsed',
-    description: [
-      `Very early foray into Rust - this uses chrono, a
-        date/time crate and lets you know how much time has elapsed since some
-        date/time. Roughly. Very roughly.`
-    ],
-    urls: [
-      'https://github.com/aidenlangley/chrono_elapsed',
-      'https://crates.io/crates/chrono_elapsed'
-    ],
-    key_words: ['']
-  },
+  // {
+  //   title: 'chrono-elapsed',
+  //   description: [
+  //     `Very early foray into Rust - this uses chrono, a
+  //       date/time crate and lets you know how much time has elapsed since some
+  //       date/time. Roughly. Very roughly.`
+  //   ],
+  //   urls: [
+  //     'https://github.com/aidenlangley/chrono_elapsed',
+  //     'https://crates.io/crates/chrono_elapsed'
+  //   ],
+  //   key_words: ['']
+  // },
   {
     title: 'Whakaoranga Whanau',
     description: [
