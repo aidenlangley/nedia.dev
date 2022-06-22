@@ -19,4 +19,6 @@ interface Project {
 	// An array of paragraphs.
 	readonly description?: string[];
 	readonly key_words: string[];
+	// Nice covert photo where applicable.
+	readonly img?: string;
 }
