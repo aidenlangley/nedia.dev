@@ -176,6 +176,18 @@ export const experience = readable([
 		]
 	},
 	{
+		company: 'Northpower',
+		industry: 'Electrical',
+		location: 'Whanagarei, New Zealand',
+		duration: '3 months',
+		titles: ['Senior Software Developer'],
+		technologies: ['C#/.Net Core', 'Azure', 'Microsoft SQL Server', 'OracleDB'],
+		responsibilities: [
+			`Short contract working on integrating some older software with a newer
+      tech stack.`
+		]
+	},
+	{
 		company: 'New Era Technologies',
 		industry: 'Education',
 		location: 'Northland, New Zealand',
