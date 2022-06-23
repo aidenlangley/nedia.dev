@@ -85,19 +85,6 @@ export const projects = readable([
 		urls: ['https://github.com/pop-os/launcher'],
 		key_words: ['Pop_OS!', 'Rust', 'System76']
 	},
-	// {
-	//   title: 'chrono-elapsed',
-	//   description: [
-	//     `Very early foray into Rust - this uses chrono, a
-	//       date/time crate and lets you know how much time has elapsed since some
-	//       date/time. Roughly. Very roughly.`
-	//   ],
-	//   urls: [
-	//     'https://github.com/aidenlangley/chrono_elapsed',
-	//     'https://crates.io/crates/chrono_elapsed'
-	//   ],
-	//   key_words: ['']
-	// },
 	{
 		title: 'Whakaoranga Whanau',
 		description: [
@@ -157,16 +144,6 @@ export const experience = readable([
 			`Work with the client onsite or otherwise on implementing their
       solution.`,
 			`Implementing & ensuring compliance with SWIFT & SEPA standards.`
-		],
-		notables: [
-			"Tesco's",
-			'Deutche Bank',
-			'Lloyds TSB',
-			'HSBC',
-			'Barclays',
-			'Scottish Widows',
-			'HSBC',
-			'J.P. Morgan'
 		]
 	},
 	{
@@ -196,10 +173,6 @@ export const experience = readable([
 			'AWS, primarily EC2, DynamoDB & CloudWatch',
 			`Extensive range of databases including MySQL, PostreSQL, Microsoft SQL
         Server and some lesser known such as Firebird & FileMaker`
-		],
-		notables: [
-			'Miscellaneous veterinary clinics from Guame to California',
-			'Competitors such as IDEXX: Cornerstone'
 		]
 	},
 	{
@@ -224,13 +197,6 @@ export const experience = readable([
 			`Generally being an aide to the school & teachers. Often our teachers
         would something as simple as a camera set up on a tripod to record an
         event and we would oblige.`
-		],
-		notables: [
-			'On-site support',
-			'Some of the largest schools in the North',
-			'Whanagarei Girls & Boys High',
-			'Kerikeri High',
-			'Okaihau College'
 		]
 	},
 	{
@@ -252,13 +218,10 @@ export const experience = readable([
         I'm of Māori heritage so it was less of a job and more of an experience,
         but I was able to set up a budding organisation up with some IT
         infrastructure.`,
-			'Kapahaka',
-			'Interpersonal skills'
-		],
-		notables: [
-			`Voluntary role with little by way of financial compensation but a fulfilling job nonetheless`,
-			`Managing all IT infrastructure for a small office`,
-			`Lots of teaching`
+			'Participating in kapahaka & working on interpersonal skills.',
+			'Assisting kaimahi & whaiora with their mahi and/or struggles.',
+			'Keeping the team educated in terms of the technology we use.',
+			'Maintaining the hardware & infrastructure on site.'
 		]
 	}
 ]);
