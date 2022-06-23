@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { blurb } from '$lib/stores/constants';
+	import { blurb, hobbies } from '$lib/stores/constants';
+	import Paragraph from './Paragraph.svelte';
 </script>
 
 <section class="blurb">
@@ -14,18 +15,19 @@
 		grid-auto-flow: row;
 	}
 
-	.blurb > h1 {
-		font-size: 2rem;
-		line-height: 0.5rem;
+	h1 {
+		font-size: 3rem;
+		margin-top: 0.8rem;
+		margin-bottom: 0.1rem;
 	}
 
-	.blurb > h2 {
+	h2 {
 		font-family: monospace;
 		font-size: 1.2rem;
-		line-height: 0.4rem;
+		margin-top: 0.1rem;
 	}
 
-	.blurb > small {
+	small {
 		font-family: sans-serif;
 		text-align: justify;
 	}

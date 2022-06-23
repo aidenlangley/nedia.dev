@@ -24,7 +24,9 @@
 		{#if urls && urls.length > 0}
 			<ul>
 				{#each urls as url}
-					<li><Link to={url} label="hyperlink to {url}">{url}</Link></li>
+					<li>
+						<Link to={url} label="external link to {url}">{url}</Link>
+					</li>
 				{/each}
 			</ul>
 		{/if}

@@ -4,6 +4,7 @@
 
 <style>
 	h1.title {
-		font-family: sans-serif;
+		font-family: serif;
+		margin-bottom: 0.2rem;
 	}
 </style>

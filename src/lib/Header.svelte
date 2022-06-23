@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { pages, email } from '$lib/stores/constants';
 
-	import Links from '$lib/Links.svelte';
 	import Link from './Link.svelte';
 </script>
 
@@ -9,9 +8,9 @@
 
 <nav>
 	<ol>
-		{#each pages as { page, url, active }}
+		{#each pages as { page, url }}
 			<li>
-				{#if active}
+				{#if url}
 					<Link to={url} label="navigate to {page} page" internal>{page}</Link>
 				{:else}
 					{page}

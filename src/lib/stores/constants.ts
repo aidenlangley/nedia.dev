@@ -4,18 +4,15 @@ import { readable } from 'svelte/store';
 export const pages = [
 	{
 		page: 'home',
-		url: '/',
-		active: true
+		url: '/'
 	},
 	{
 		page: 'résumé',
-		url: '/resume',
-		active: true
+		url: '/resume'
 	},
 	{
-		page: 'blog',
-		url: '/blog',
-		active: false
+		page: 'blog'
+		// url: '/blog',
 	}
 ];
 
@@ -32,7 +29,8 @@ export const hobbies = readable([
 	'cooking & baking',
 	'games',
 	'football',
-	'technology'
+	'technology',
+	'art & design'
 ]);
 
 // Projects
@@ -67,7 +65,7 @@ export const projects = readable([
         might not change this time around. Git does most of the work, so
         I've developed a good understanding of it thanks to this project.`,
 			`This project in particular taught me the strengths of test-driven
-        development`
+        development.`
 		],
 		urls: [
 			'https://github.com/aidenlangley/nedots',
@@ -136,9 +134,131 @@ export const svelte_kit = readable('https://kit.svelte.dev/');
 
 // Resume
 export const dob = readable(new Date(1993, 10));
-export const skills = readable([
+export const education = readable([
 	{
-		name: '',
-		score: 3
+		institute: 'Woodbridge High School',
+		grade: "11 GCSE's, 2 A Levels"
+	},
+	{
+		institute: 'City & Guilds',
+		grade: 'Diploma in IT & Systems Engineering'
+	}
+]);
+export const experience = readable([
+	{
+		company: 'Bottomline Technologies',
+		industry: 'Financial Technology',
+		location: "St Paul's, London",
+		duration: '2.5 years',
+		titles: ['Technical Analyst'],
+		technologies: ['Java', 'OracleDB', 'C#/.Net'],
+		responsibilities: [
+			`Design bespoke payment solutions for banks & other corporates.`,
+			`Work with the client onsite or otherwise on implementing their
+      solution.`,
+			`Implementing & ensuring compliance with SWIFT & SEPA standards.`
+		],
+		notables: [
+			"Tesco's",
+			'Deutche Bank',
+			'Lloyds TSB',
+			'HSBC',
+			'Barclays',
+			'Scottish Widows',
+			'HSBC',
+			'J.P. Morgan'
+		]
+	},
+	{
+		company: 'ezyVet',
+		industry: 'Veterinary',
+		location: 'Auckland, New Zealand',
+		duration: 'Closing on 3 years',
+		titles: [
+			'Full Stack Engineer',
+			'Conversion Engineer',
+			'Global 2nd Line Support'
+		],
+		responsibilities: [
+			`Originally in a small team of developers during the start-up era of the
+        company - bug fixes & features were the primary focus.`,
+			`Later moved into a role in the conversions team responsible for reverse
+        engineering competing products & extracting data from the customers
+        database to transfer it to our own solution.`,
+			`Spent a year of my time in London providing 2nd line support and working
+        the hours that our Kiwi team preferred not to (very late nights supporting
+        AU.)`
+		],
+		technologies: [
+			'PHP',
+			'C#/.Net',
+			'Lots of Linux',
+			'AWS, primarily EC2, DynamoDB & CloudWatch',
+			`Extensive range of databases including MySQL, PostreSQL, Microsoft SQL
+        Server and some lesser known such as Firebird & FileMaker`
+		],
+		notables: [
+			'Miscellaneous veterinary clinics from Guame to California',
+			'Competitors such as IDEXX: Cornerstone'
+		]
+	},
+	{
+		company: 'New Era Technologies',
+		industry: 'Education',
+		location: 'Northland, New Zealand',
+		duration: '6 months',
+		titles: ['Networking & Support Technician'],
+		technologies: [
+			'DHCP',
+			'Networking',
+			'Microsoft Servers',
+			'Hardware Repairs'
+		],
+		responsibilities: [
+			`A change of pace for me due to a move to a rural location and some health
+        troubles.`,
+			`I'd work closely with the teachers & students rectifying any problems they
+        encountered with their devices.`,
+			`Ensure the school is safe by keeping the network secure, and ensuring
+        it provided adequate coverage of the sites we would work on.`,
+			`Generally being an aide to the school & teachers. Often our teachers
+        would something as simple as a camera set up on a tripod to record an
+        event and we would oblige.`
+		],
+		notables: [
+			'On-site support',
+			'Some of the largest schools in the North',
+			'Whanagarei Girls & Boys High',
+			'Kerikeri High',
+			'Okaihau College'
+		]
+	},
+	{
+		company: 'Whakaoranga Whanau Recovery Hub',
+		industry: 'Alcohol & Other Drug Rehabilitation',
+		location: 'Northland, New Zealand',
+		duration: '1.5 years',
+		titles: ['IT Director'],
+		technologies: [
+			'Networking',
+			'DHCP',
+			'Cloud Solutions',
+			'Google Workspace',
+			'Svelte',
+			'Netlify & NetlifyCMS'
+		],
+		responsibilities: [
+			`Learning and conversing in Te Reo Māori was a large part of the role.
+        I'm of Māori heritage so it was less of a job and more of an experience,
+        but I was able to set up a budding organisation up with some IT
+        infrastructure.`,
+			'Kapahaka',
+			'Interpersonal skills'
+		],
+		notables: [
+			`Voluntary role with little by way of financial compensation but a fulfilling job nonetheless`,
+			`Managing all IT infrastructure for a small office`,
+			`Lots of teaching`
+		]
 	}
 ]);

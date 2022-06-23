@@ -9,6 +9,8 @@ declare namespace App {
 	// interface Stuff {}
 	interface Models {
 		project: Project;
+		experience: Experience;
+		education: Education;
 	}
 }
 
@@ -21,4 +23,20 @@ interface Project {
 	readonly key_words: string[];
 	// Nice covert photo where applicable.
 	readonly img?: string;
+}
+
+interface Experience {
+	readonly company: string;
+	readonly industry: string;
+	readonly location: string;
+	readonly duration: string;
+	readonly titles: string[];
+	readonly responsibilities: string[];
+	readonly technologies: string[];
+	readonly notables: string[];
+}
+
+interface Education {
+	readonly institute: string;
+	readonly grade: string;
 }
