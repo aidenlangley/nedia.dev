@@ -32,7 +32,8 @@ import{r as e}from"./index-7c64d610.js";const o=[{page:"home",url:"/"},{page:"r\
       database to transfer it to our own solution.`,`Spent a year of my time in London providing 2nd line support and working
       the hours that our Kiwi team preferred not to (very late nights supporting
       AU.)`],technologies:["PHP","C#/.Net","Lots of Linux","AWS, primarily EC2, DynamoDB & CloudWatch",`Extensive range of databases including MySQL, PostreSQL, Microsoft SQL
-      Server and some lesser known such as Firebird & FileMaker`]},{company:"New Era Technologies",industry:"Education",location:"Northland, New Zealand",duration:"6 months",titles:["Networking & Support Technician"],technologies:["DHCP","Networking","Microsoft Servers","Hardware Repairs"],responsibilities:[`A change of pace for me due to a move to a rural location and some health
+      Server and some lesser known such as Firebird & FileMaker`]},{company:"Northpower",industry:"Electrical",location:"Whanagarei, New Zealand",duration:"3 months",titles:["Senior Software Developer"],technologies:["C#/.Net Core","Azure","Microsoft SQL Server","OracleDB"],responsibilities:[`Short contract working on integrating some older software with a newer
+      tech stack.`]},{company:"New Era Technologies",industry:"Education",location:"Northland, New Zealand",duration:"6 months",titles:["Networking & Support Technician"],technologies:["DHCP","Networking","Microsoft Servers","Hardware Repairs"],responsibilities:[`A change of pace for me due to a move to a rural location and some health
       troubles.`,`I'd work closely with the teachers & students rectifying any problems they
       encountered with their devices.`,`Ensure the school is safe by keeping the network secure, and ensuring
       it provided adequate coverage of the sites we would work on.`,`Generally being an aide to the school & teachers. Often our teachers
