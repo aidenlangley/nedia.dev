@@ -23,14 +23,14 @@ export const email = readable('aiden@nedia.dev');
 export const phone = readable('+642040773742');
 export const blurb = readable(
 	`Born in Aotearoa and grew up in London, England.
-  World of Warcraft nerd turned Software Engineer and Linux enthusiast.`
+	World of Warcraft nerd turned Software Engineer and Linux enthusiast.`
 );
 export const hobbies = readable([
-	'cooking & baking',
-	'games',
-	'football',
-	'technology',
-	'art & design'
+	'Cooking & Baking',
+	'Games',
+	'Football',
+	'Technology',
+	'Art & Design'
 ]);
 
 // Projects
@@ -39,11 +39,11 @@ export const projects = readable([
 		title: 'bspcq',
 		description: [
 			`A hobby of mine is tinkering with Linux - this was
-        something I wrote to visually represent the bspwm data structure.
-        It uses binary space partitioning to divide your desktop into
-        nodes that a program can occupy. The code is recursive since you
-        can theoretically have an infinite number of nodes, and was a
-        lot of fun to write.`
+      something I wrote to visually represent the bspwm data structure.
+      It uses binary space partitioning to divide your desktop into
+      nodes that a program can occupy. The code is recursive since you
+      can theoretically have an infinite number of nodes, and was a
+      lot of fun to write.`
 		],
 		urls: [
 			'https://github.com/aidenlangley/bspcq',
@@ -55,17 +55,17 @@ export const projects = readable([
 		title: 'nedots',
 		description: [
 			`Another hobby related to the first is writing what you might call
-        an installer - since I try out a lot of different operation
-        systems I automate the process of installing packages, copying
-        configuration files - generally the idea is to ensure that the
-        things I'm likely to forget get done, and rebuilding from scratch
-        is hands free.`,
+      an installer - since I try out a lot of different operation
+      systems I automate the process of installing packages, copying
+      configuration files - generally the idea is to ensure that the
+      things I'm likely to forget get done, and rebuilding from scratch
+      is hands free.`,
 			`Each time I usually pick a new language to write it in, so far
-        I've covered Bash, Fish, Python and currently it's in Rust. I
-        might not change this time around. Git does most of the work, so
-        I've developed a good understanding of it thanks to this project.`,
+      I've covered Bash, Fish, Python and currently it's in Rust. I
+      might not change this time around. Git does most of the work, so
+      I've developed a good understanding of it thanks to this project.`,
 			`This project in particular taught me the strengths of test-driven
-        development.`
+      development.`
 		],
 		urls: [
 			'https://github.com/aidenlangley/nedots',
@@ -77,10 +77,10 @@ export const projects = readable([
 		title: 'Contributions!',
 		description: [
 			`Most notable contribution is to a launcher that Pop_OS!
-        develops. I have been interested in their distribution for a long
-        time, the tiling window manager for Gnome in particular, and so I
-        found some places where I was able to contribute code to improve
-        the product.`
+      develops. I have been interested in their distribution for a long
+      time, the tiling window manager for Gnome in particular, and so I
+      found some places where I was able to contribute code to improve
+      the product.`
 		],
 		urls: ['https://github.com/pop-os/launcher'],
 		key_words: ['Pop_OS!', 'Rust', 'System76']
@@ -89,11 +89,11 @@ export const projects = readable([
 		title: 'Whakaoranga Whanau',
 		description: [
 			`During a rough patch in my life I ended up in the care of
-        the Whakaoranga Whanau and I possessed some skills that are in short supply
-        in the north of Aotearoa, so I volunteered here to get them discovered on
-        Google Maps with an online presence. The mahi also involved setting up
-        their IT infrastructure in their office, taking care of their hardware
-        and teaching the whanau.`
+      the Whakaoranga Whanau and I possessed some skills that are in short supply
+      in the north of Aotearoa, so I volunteered here to get them discovered on
+      Google Maps with an online presence. The mahi also involved setting up
+      their IT infrastructure in their office, taking care of their hardware
+      and teaching the whanau.`
 		],
 		urls: [
 			'https://github.com/aidenlangley/wowhub.co.nz',
@@ -105,9 +105,9 @@ export const projects = readable([
 		title: 'Even further back!',
 		description: [
 			`The reason I got into programming was World of Warcraft.
-        I'd tinker with the settings & user interface more than play the game
-        at games, and so I became involved with a community of tinkerers. I
-        would help out on the forums, moderating for a time.`
+      I'd tinker with the settings & user interface more than play the game
+      at games, and so I became involved with a community of tinkerers. I
+      would help out on the forums, moderating for a time.`
 		],
 		urls: ['https://github.com/Tukui-org/Tukui', 'https://www.tukui.org'],
 		key_words: ['Gaming', 'User interface', 'Lua']
@@ -136,7 +136,7 @@ export const experience = readable([
 		company: 'Bottomline Technologies',
 		industry: 'Financial Technology',
 		location: "St Paul's, London",
-		duration: '2.5 years',
+		duration: '2 years',
 		titles: ['Technical Analyst'],
 		technologies: ['Java', 'OracleDB', 'C#/.Net'],
 		responsibilities: [
@@ -150,7 +150,7 @@ export const experience = readable([
 		company: 'ezyVet',
 		industry: 'Veterinary',
 		location: 'Auckland, New Zealand',
-		duration: 'Closing on 3 years',
+		duration: '2 years',
 		titles: [
 			'Full Stack Engineer',
 			'Conversion Engineer',
@@ -158,13 +158,13 @@ export const experience = readable([
 		],
 		responsibilities: [
 			`Originally in a small team of developers during the start-up era of the
-        company - bug fixes & features were the primary focus.`,
+      company - bug fixes & features were the primary focus.`,
 			`Later moved into a role in the conversions team responsible for reverse
-        engineering competing products & extracting data from the customers
-        database to transfer it to our own solution.`,
+      engineering competing products & extracting data from the customers
+      database to transfer it to our own solution.`,
 			`Spent a year of my time in London providing 2nd line support and working
-        the hours that our Kiwi team preferred not to (very late nights supporting
-        AU.)`
+      the hours that our Kiwi team preferred not to (very late nights supporting
+      AU.)`
 		],
 		technologies: [
 			'PHP',
@@ -172,7 +172,7 @@ export const experience = readable([
 			'Lots of Linux',
 			'AWS, primarily EC2, DynamoDB & CloudWatch',
 			`Extensive range of databases including MySQL, PostreSQL, Microsoft SQL
-        Server and some lesser known such as Firebird & FileMaker`
+      Server and some lesser known such as Firebird & FileMaker`
 		]
 	},
 	{
@@ -189,14 +189,14 @@ export const experience = readable([
 		],
 		responsibilities: [
 			`A change of pace for me due to a move to a rural location and some health
-        troubles.`,
+      troubles.`,
 			`I'd work closely with the teachers & students rectifying any problems they
-        encountered with their devices.`,
+      encountered with their devices.`,
 			`Ensure the school is safe by keeping the network secure, and ensuring
-        it provided adequate coverage of the sites we would work on.`,
+      it provided adequate coverage of the sites we would work on.`,
 			`Generally being an aide to the school & teachers. Often our teachers
-        would something as simple as a camera set up on a tripod to record an
-        event and we would oblige.`
+      would something as simple as a camera set up on a tripod to record an
+      event and we would oblige.`
 		]
 	},
 	{
@@ -215,9 +215,9 @@ export const experience = readable([
 		],
 		responsibilities: [
 			`Learning and conversing in Te Reo Māori was a large part of the role.
-        I'm of Māori heritage so it was less of a job and more of an experience,
-        but I was able to set up a budding organisation up with some IT
-        infrastructure.`,
+      I'm of Māori heritage so it was less of a job and more of an experience,
+      but I was able to set up a budding organisation up with some IT
+      infrastructure.`,
 			'Participating in kapahaka & working on interpersonal skills.',
 			'Assisting kaimahi & whaiora with their mahi and/or struggles.',
 			'Keeping the team educated in terms of the technology we use.',
